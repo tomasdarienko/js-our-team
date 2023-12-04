@@ -32,3 +32,7 @@ let dipendenti =[
           immagine : ".jpg"
      }
 ]
+
+for(let key in dipendenti){
+     console.log(dipendenti[key])
+}
